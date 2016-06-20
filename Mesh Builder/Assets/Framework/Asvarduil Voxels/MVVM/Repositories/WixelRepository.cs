@@ -39,25 +39,6 @@ public class WixelRepository : RepositoryBase<WixelRepository, Wixel>
 
     #region Chunk Methods
 
-    public string SaveLocation(string worldName)
-    {
-        string saveLocation = saveFolderName + "/" + worldName + "/";
-
-        if (!Directory.Exists(saveLocation))
-        {
-            Directory.CreateDirectory(saveLocation);
-        }
-
-        return saveLocation;
-    }
-
-    public string FileName(VoxelWorldPosition chunkLocation)
-    {
-        // TODO: Add a ToString to VoxelWorldPosition?
-        string fileName = chunkLocation.x + "," + chunkLocation.y + "," + chunkLocation.z + ".bin";
-        return fileName;
-    }
-
     public void SaveChunk(WixelChunk chunk)
     {
         WixelChunkSaveBuffer save = new WixelChunkSaveBuffer(chunk);
@@ -106,6 +87,25 @@ public class WixelRepository : RepositoryBase<WixelRepository, Wixel>
         }
 
         return true;
+    }
+    
+    private string SaveLocation(string worldName)
+    {
+        string saveLocation = saveFolderName + "/" + worldName + "/";
+
+        if (!Directory.Exists(saveLocation))
+        {
+            Directory.CreateDirectory(saveLocation);
+        }
+
+        return saveLocation;
+    }
+
+    private string FileName(VoxelWorldPosition chunkLocation)
+    {
+        // TODO: Add a ToString to VoxelWorldPosition?
+        string fileName = chunkLocation.x + "," + chunkLocation.y + "," + chunkLocation.z + ".bin";
+        return fileName;
     }
 
     #endregion Chunk Methods
