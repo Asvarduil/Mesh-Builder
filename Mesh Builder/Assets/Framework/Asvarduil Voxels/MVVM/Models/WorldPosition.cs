@@ -1,4 +1,5 @@
 using System;
+using UnityEngine;
 
 public class WorldPosition
 {
@@ -15,6 +16,11 @@ public class WorldPosition
   public override string ToString()
   {
     return string.Format("{0}, {1}, {2}", x, y, z);
+  }
+  
+  public Vector3 ToVector3()
+  {
+    return new Vector3(x, y, z);
   }
   
   #endregion Methods
