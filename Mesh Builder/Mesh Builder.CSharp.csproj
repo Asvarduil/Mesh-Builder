@@ -115,6 +115,8 @@
     <Compile Include="Assets\Framework\Asvarduil.MVVM\SimpleJSON\JSONExtensions.cs" />
     <Compile Include="Assets\Framework\Asvarduil.MVVM\SimpleJSON\JSONLazyCreator.cs" />
     <Compile Include="Assets\Framework\Asvarduil.MVVM\SimpleJSON\JSONNode.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Voxels\General\WixelDirection.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Voxels\General\WorldPosition.cs" />
     <Compile Include="Assets\Framework\Asvarduil.Voxels\Generation\DefaultChunkGenerator.cs" />
     <Compile Include="Assets\Framework\Asvarduil.Voxels\Generation\WixelChunkGenerator.cs" />
     <Compile Include="Assets\Framework\Asvarduil.Voxels\Generation\WixelGenerationCriteria.cs" />
@@ -127,10 +129,8 @@
     <Compile Include="Assets\Framework\Asvarduil.Voxels\MVVM\Models\Wixel.cs" />
     <Compile Include="Assets\Framework\Asvarduil.Voxels\MVVM\Models\WixelChunk.cs" />
     <Compile Include="Assets\Framework\Asvarduil.Voxels\MVVM\Models\WixelChunkMeshData.cs" />
-    <Compile Include="Assets\Framework\Asvarduil.Voxels\MVVM\Models\WixelDirection.cs" />
     <Compile Include="Assets\Framework\Asvarduil.Voxels\MVVM\Models\WixelDirectionInformation.cs" />
     <Compile Include="Assets\Framework\Asvarduil.Voxels\MVVM\Models\WixelSaveBuffer.cs" />
-    <Compile Include="Assets\Framework\Asvarduil.Voxels\MVVM\Models\WorldPosition.cs" />
     <Compile Include="Assets\Framework\Asvarduil.Voxels\MVVM\Repositories\WixelRepository.cs" />
     <Compile Include="Assets\Framework\Asvarduil.Voxels\SimplexNoise\Noise.cs" />
     <Compile Include="Assets\Game-Specific Assets\Scripts\PlayerControl.cs" />
