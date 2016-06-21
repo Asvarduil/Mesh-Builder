@@ -131,11 +131,17 @@ public abstract class WixelChunkGenerator
 
     protected virtual void OnBeforeGenerateChunk(WixelChunk chunk)
     {
+        if(! _runMetrics)
+            return;
+            
         _startGenerateTime = Time.time;
     }
 
     protected virtual void OnAfterGenerateChunk(WixelChunk chunk)
     {
+        if(! _runMetrics)
+            return;
+            
         _endGenerateTime = Time.time;
 
         float elapsedTime = _endGenerateTime - _startGenerateTime;
