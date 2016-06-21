@@ -13,13 +13,11 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile>
-    </CompilerResponseFile>
+    <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
     <UnityVersion>5.3.1f1</UnityVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -65,92 +63,76 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\Audio\Actuators\Maestro.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\Audio\Managers\AudioManager.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\Audio\Managers\SoundEvents.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\Base Behaviors\DebuggableBehavior.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\Base Behaviors\ManagerBase.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\Business\DataException.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\Business\Extensions\GameObjectExtensions.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\Business\Extensions\ICloneableExtensions.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\Business\Extensions\IEnumerableExtensions.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\Business\Extensions\StringExtensions.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\Business\Extensions\TransformExtensions.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\Business\JSON\JSON.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\Business\JSON\JSONArray.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\Business\JSON\JSONBinaryTag.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\Business\JSON\JSONClass.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\Business\JSON\JSONData.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\Business\JSON\JSONExtensions.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\Business\JSON\JSONLazyCreator.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\Business\JSON\JSONNode.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\Camera\Actuators\CameraFreezeTrigger.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\Camera\Actuators\CameraTrigger.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\Camera\Actuators\Fader.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\Camera\Actuators\RPGCamera.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\GUI\Base Behaviors\UGUIPresenterBase.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\GUI\Widgets\Gauge.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\Interfaces\IEntityStat.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\Interfaces\INamed.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\Interfaces\ISuspendable.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\Motion\AsvarduilAccelerometer.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\Motion\AsvarduilControlAxis.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\Motion\ControlManager.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\Motion\DirectionVectorPair.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\Motion\MotionDirection.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\System\InitializationScenePass.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\System\Lockout.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\Core\System\PersistentSingularObject.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\MVVM\Base Behaviors\BaseActuator.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\MVVM\Base Behaviors\RepositoryBase.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\MVVM\Data Access\SimpleJsonDataAccessor.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\MVVM\Interfaces\IDataAccessor.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\MVVM\Interfaces\IMapper.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\MVVM\Mappings\MaterialDetailMapping.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\MVVM\Mappings\MeshDetailMapping.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\MVVM\Mappings\ModifiableStatMapping.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\MVVM\Mappings\SimpleJsonMapper.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\MVVM\Mappings\TextureDetailMapping.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\MVVM\Mappings\Vector2Mapper.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\MVVM\Mappings\Vector3Mapper.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\MVVM\Models\MaterialDetail.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\MVVM\Models\MeshDetail.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\MVVM\Models\ModifiableStat.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Game Framework\MVVM\Models\TextureDetail.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Voxels\Business\Noise.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Voxels\MVVM\Actuators\WixelChunk.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Voxels\MVVM\Actuators\WixelChunkGenerator.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Voxels\MVVM\Actuators\WixelChunkLoader.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Voxels\MVVM\Actuators\WixelTerrainGenerator.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Voxels\MVVM\Actuators\WixelWorld.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Voxels\MVVM\Data Access\WixelDataAccessor.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Voxels\MVVM\Managers\WixelManager.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Voxels\MVVM\Mappings\WixelDirectionInformationMapper.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Voxels\MVVM\Mappings\WixelMapper.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Voxels\MVVM\Models\Wixel.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Voxels\MVVM\Models\WixelChunkMeshData.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Voxels\MVVM\Models\WixelColumnGenCondition.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Voxels\MVVM\Models\WixelColumnGenMacro.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Voxels\MVVM\Models\WixelDirectionInformation.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Voxels\MVVM\Models\WixelSaveBuffer.cs" />
-    <Compile Include="Assets\Framework\Asvarduil Voxels\MVVM\Repositories\WixelRepository.cs" />
-    <Compile Include="Assets\Framework\VoxelFramework\Actuators\DebugCameraModify.cs" />
-    <Compile Include="Assets\Framework\VoxelFramework\Actuators\VoxelChunk.cs" />
-    <Compile Include="Assets\Framework\VoxelFramework\Actuators\VoxelChunkLoader.cs" />
-    <Compile Include="Assets\Framework\VoxelFramework\Actuators\VoxelWorld.cs" />
-    <Compile Include="Assets\Framework\VoxelFramework\Models\AirVoxel.cs" />
-    <Compile Include="Assets\Framework\VoxelFramework\Models\GrassVoxel.cs" />
-    <Compile Include="Assets\Framework\VoxelFramework\Models\LeavesVoxel.cs" />
-    <Compile Include="Assets\Framework\VoxelFramework\Models\VoxelBlock.cs" />
-    <Compile Include="Assets\Framework\VoxelFramework\Models\VoxelMeshData.cs" />
-    <Compile Include="Assets\Framework\VoxelFramework\Models\WoodVoxel.cs" />
-    <Compile Include="Assets\Framework\VoxelFramework\Services\VoxelSerializationService.cs" />
-    <Compile Include="Assets\Framework\VoxelFramework\Services\VoxelTerrainGenerator.cs" />
-    <Compile Include="Assets\Framework\VoxelFramework\Services\VoxelTerrainService.cs" />
-    <Compile Include="Assets\Framework\VoxelFramework\Structures\VoxelDirection.cs" />
-    <Compile Include="Assets\Framework\VoxelFramework\Structures\VoxelSaveBuffer.cs" />
-    <Compile Include="Assets\Framework\VoxelFramework\Structures\VoxelTile.cs" />
-    <Compile Include="Assets\Framework\VoxelFramework\Structures\VoxelWorldPosition.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Core\Audio\Actuators\Maestro.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Core\Audio\Managers\AudioManager.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Core\Audio\Managers\SoundEvents.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Core\Base Behaviors\DebuggableBehavior.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Core\Base Behaviors\ManagerBase.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Core\Business\Extensions\GameObjectExtensions.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Core\Business\Extensions\ICloneableExtensions.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Core\Business\Extensions\IEnumerableExtensions.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Core\Business\Extensions\StringExtensions.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Core\Business\Extensions\TransformExtensions.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Core\Camera\Actuators\CameraFreezeTrigger.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Core\Camera\Actuators\CameraTrigger.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Core\Camera\Actuators\Fader.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Core\Camera\Actuators\RPGCamera.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Core\GUI\Base Behaviors\UGUIPresenterBase.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Core\GUI\Widgets\Gauge.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Core\Interfaces\IEntityStat.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Core\Interfaces\INamed.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Core\Interfaces\ISuspendable.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Core\Motion\AsvarduilAccelerometer.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Core\Motion\AsvarduilControlAxis.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Core\Motion\ControlManager.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Core\Motion\DirectionVectorPair.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Core\Motion\MotionDirection.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Core\System\InitializationScenePass.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Core\System\Lockout.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Core\System\PersistentSingularObject.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.MVVM\Base Behaviors\BaseActuator.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.MVVM\Base Behaviors\DataException.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.MVVM\Base Behaviors\RepositoryBase.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.MVVM\Data Access\SimpleJsonDataAccessor.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.MVVM\Interfaces\IDataAccessor.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.MVVM\Interfaces\IMapper.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.MVVM\Mappings\MaterialDetailMapping.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.MVVM\Mappings\MeshDetailMapping.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.MVVM\Mappings\ModifiableStatMapping.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.MVVM\Mappings\SimpleJsonMapper.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.MVVM\Mappings\TextureDetailMapping.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.MVVM\Mappings\Vector2Mapper.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.MVVM\Mappings\Vector3Mapper.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.MVVM\Models\MaterialDetail.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.MVVM\Models\MeshDetail.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.MVVM\Models\ModifiableStat.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.MVVM\Models\TextureDetail.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.MVVM\SimpleJSON\JSON.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.MVVM\SimpleJSON\JSONArray.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.MVVM\SimpleJSON\JSONBinaryTag.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.MVVM\SimpleJSON\JSONClass.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.MVVM\SimpleJSON\JSONData.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.MVVM\SimpleJSON\JSONExtensions.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.MVVM\SimpleJSON\JSONLazyCreator.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.MVVM\SimpleJSON\JSONNode.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Voxels\Generation\DefaultChunkGenerator.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Voxels\Generation\WixelChunkGenerator.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Voxels\Generation\WixelGenerationCriteria.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Voxels\MVVM\Actuators\WixelChunkLoader.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Voxels\MVVM\Actuators\WixelWorld.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Voxels\MVVM\Data Access\WixelDataAccessor.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Voxels\MVVM\Managers\WixelManager.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Voxels\MVVM\Mappings\WixelDirectionInformationMapper.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Voxels\MVVM\Mappings\WixelMapper.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Voxels\MVVM\Models\Wixel.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Voxels\MVVM\Models\WixelChunk.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Voxels\MVVM\Models\WixelChunkMeshData.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Voxels\MVVM\Models\WixelDirection.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Voxels\MVVM\Models\WixelDirectionInformation.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Voxels\MVVM\Models\WixelSaveBuffer.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Voxels\MVVM\Models\WorldPosition.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Voxels\MVVM\Repositories\WixelRepository.cs" />
+    <Compile Include="Assets\Framework\Asvarduil.Voxels\SimplexNoise\Noise.cs" />
     <Compile Include="Assets\Game-Specific Assets\Scripts\PlayerControl.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
